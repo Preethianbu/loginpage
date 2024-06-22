@@ -55,6 +55,10 @@
         span{
           color: orange;
         }
+
+        /* .navbar {
+            background-color: wheat; /* Light gray background color */
+        /* } */ 
         /* .ppl{
           background-image: url(grp.jpg);
         } */
@@ -67,7 +71,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><span>BB</span></a>
+    <a class="navbar-brand" href="https://www.bluebase.in/"><span>BB</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -92,10 +96,17 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
+
+          <li class="nav-item">
+        <a class="nav-link" href="table.php">Edit</a>
+        </li>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">skills</a>
+          <a class="nav-link disabled" aria-current="page">skills</a>
         </li>
+
+      
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" style="background: transparent;" aria-label="Search">
